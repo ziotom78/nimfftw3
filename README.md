@@ -1,14 +1,25 @@
 # Nim bindings to the FFTW3 library.
 
+Set of Nim bindings to the excellent
+[FFTW library](http://www.fftw.org/), to compute Fourier transforms of
+various kinds.
+
 I generated these bindings in a hurry because I needed them for a
-project of mine. Only the functions that use `double` values have been
-implemented (no `float` or `long double` functions, sorry -- by the
-way, at the time of writing, the `long double` type is not yet
-supported by Nim).
+project of mine. Therefore, only the functions that use `double`
+values have been implemented (no `float` or `long double` functions,
+sorry -- by the way, at the time of writing, the `long double` type is
+not yet supported by Nim).
+
+# Documentation
+
+No documentation, sorry. The bindings are very tiny, so if you're
+accustomed with the C interface of FFTW, you're going to have no
+problems.
 
 # Examples
 
-A very short example is provided at the end of
+A very short example about how to use these bindings is provided at
+the end of
 [fftw3.nim](https://github.com/ziotom78/nimfftw3/blob/master/fftw3.nim).
 
 # License
