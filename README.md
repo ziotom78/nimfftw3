@@ -6,6 +6,11 @@ implemented (no `float` or `long double` functions, sorry -- by the
 way, at the time of writing, the `long double` type is not yet
 supported by Nim).
 
+# Examples
+
+A very short example is provided at the end of
+[fftw3.nim](https://github.com/ziotom78/nimfftw3/blob/master/fftw3.nim).
+
 # License
 
 These bindings are released under a MIT license, but since the FFTW
