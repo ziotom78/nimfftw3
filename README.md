@@ -10,6 +10,8 @@ values have been implemented (no `float` or `long double` functions,
 sorry -- by the way, at the time of writing, the `long double` type is
 not yet supported by Nim).
 
+**Warning**: This repository is currently archived, as I am no longer interested in Nim.
+
 # Documentation
 
 No documentation, sorry. The bindings are very tiny, so if you're
